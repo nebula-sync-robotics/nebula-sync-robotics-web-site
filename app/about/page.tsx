@@ -22,7 +22,7 @@ export default function AboutPage(){
 
         <aside className="card p-6 rounded-xl">
           <div className="w-full h-48 relative">
-            <Image src="/Nebula_Logo.png" alt="logo" fill style={{objectFit:'contain'}} />
+            <Image src="./Nebula_Logo.png" alt="logo" fill style={{objectFit:'contain'}} />
           </div>
           <div className="mt-4">
             <h3 className="text-lg font-semibold">Contact</h3>
