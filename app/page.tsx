@@ -33,7 +33,7 @@ export default function HomePage(){
 
         <div className="flex justify-center md:justify-end">
           <div className="relative w-[420px] h-[420px] hero-glow rounded-xl overflow-hidden card flex items-center justify-center">
-            <Image src="/Nebula_Logo.png" alt="Nebula Logo" width={420} height={420} style={{objectFit:'contain'}} />
+            <Image src="nebula-sync-robotics-web-site/public/Nebula_Logo.png" alt="Nebula Logo" width={420} height={420} style={{objectFit:'contain'}} />
           </div>
         </div>
       </div>
