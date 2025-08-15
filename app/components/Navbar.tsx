@@ -7,7 +7,7 @@ export const Navbar: React.FC = () => {
    <nav className="flex items-center justify-between py-6">
       <Link href="/" className="flex items-center gap-4">
         <div className="w-14 h-14 relative">
-          <Image src="nebula-sync-robotics-web-site/public/Nebula_Logo.png" alt="Nebula Sync Robotics" fill style={{objectFit:'contain'}} />
+          <Image src="/Nebula_Logo.png" alt="Nebula Sync Robotics" fill style={{objectFit:'contain'}} />
         </div>
         <div>
           <div className="text-lg font-bold">Nebula Sync</div>
