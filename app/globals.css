@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --nebula-accent: #d7261e;
+  --nebula-slate: #737a7b;
+}
+
+body {
+  background: radial-gradient(ellipse at 10% 20%, rgba(215,38,30,0.06), transparent 8%),
+              radial-gradient(ellipse at 90% 80%, rgba(127,183,183,0.03), transparent 8%),
+              #000000;
+}
+
+.hero-glow {
+  box-shadow: 0 10px 30px rgba(215,38,30,0.12);
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.04);
+  backdrop-filter: blur(6px);
+}
